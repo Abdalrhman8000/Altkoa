@@ -1,0 +1,42 @@
+.sharaoy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sharaoy h1{
+    display: block;
+    padding: 100px 0;
+    padding-bottom: 50px;
+    font-size: 2.5rem;
+    color: var(--main_Color);
+}
+.sharoy_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+@media (min-width:200px) and (max-width:976px){
+    .sharoy_container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .sharoy_container div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        grid-gap: 20px;
+        width: 100%;
+    }
+    .sharoy_container div iframe{
+        width: 65%;
+    }
+}
+@media (min-width:200px) and (max-width:467px){
+    .sharoy_container div iframe{
+        width: 100%;
+    }
+}

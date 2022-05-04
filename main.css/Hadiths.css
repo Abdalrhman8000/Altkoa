@@ -1,0 +1,64 @@
+.hadith
+{
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hadith h1
+{
+    display: block;
+    height: 150px;
+    line-height: 340px;
+    font-size: 2.5rem;
+    color: var(--main_Color);
+}
+.hadith .container
+{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
+.hadith .container .hadith_content
+{
+    width: 100%;
+    height: 100%;
+    border: 5px double #a7a7a7;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.3rem;
+    line-height: 47px;
+    overflow: auto;
+    padding: 20px;
+}
+.hadith .container .control
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.hadith .container .control button
+{
+    padding: 10px 20px;
+    background: var(--main_Color);
+    color: var(--white_Color);
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.hadith .container .control span{
+    color: var(--main_Color);
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+@media (min-width:200px) and (max-width:970px){
+    .hadith h1{
+        font-size: 2rem;
+    }
+}

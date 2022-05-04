@@ -1,0 +1,86 @@
+{
+    "code": 200,
+    "status": "OK",
+    "data": {
+      "timings": {
+        "04:33": "الفجر",
+        "05:58": "الشروق",
+        "12:19": "الظهر",
+        "3:48": "العصر",
+        "6:40": "الغروب",
+        "6:41": "المغرب",
+        "8:11": "العشاء",
+        "12:20": "منتصف اليل"
+      },
+      "date": {
+        "readable": "13 Apr 2021",
+        "timestamp": "1618342222",
+        "hijri": {
+          "date": "01-09-1442",
+          "format": "DD-MM-YYYY",
+          "day": "01",
+          "weekday": {
+            "en": "Al Thalaata",
+            "ar": "الثلاثاء"
+          },
+          "month": {
+            "number": 9,
+            "en": "Ramaḍān",
+            "ar": "رَمَضان"
+          },
+          "year": "1442",
+          "designation": {
+            "abbreviated": "AH",
+            "expanded": "Anno Hegirae"
+          },
+          "holidays": [
+            "1st Day of Ramadan"
+          ]
+        },
+        "gregorian": {
+          "date": "13-04-2021",
+          "format": "DD-MM-YYYY",
+          "day": "13",
+          "weekday": {
+            "en": "Tuesday"
+          },
+          "month": {
+            "number": 4,
+            "en": "April"
+          },
+          "year": "2021",
+          "designation": {
+            "abbreviated": "AD",
+            "expanded": "Anno Domini"
+          }
+        }
+      },
+      "meta": {
+        "latitude": 25.2048493,
+        "longitude": 55.2707828,
+        "timezone": "Asia/Dubai",
+        "method": {
+          "id": 8,
+          "name": "Gulf Region",
+          "params": {
+            "Fajr": 19.5,
+            "Isha": "90 min"
+          }
+        },
+        "latitudeAdjustmentMethod": "ANGLE_BASED",
+        "midnightMode": "STANDARD",
+        "school": "STANDARD",
+        "offset": {
+          "Imsak": 0,
+          "Fajr": 0,
+          "Sunrise": 0,
+          "Dhuhr": 0,
+          "Asr": 0,
+          "Maghrib": 0,
+          "Sunset": 0,
+          "Isha": 0,
+          "Midnight": 0
+        }
+      }
+    }
+  }

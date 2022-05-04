@@ -1,0 +1,168 @@
+.koran{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-gap: 50px;
+    background-color: #ecf0f1;
+    padding-bottom: 20px;
+}
+.hides{
+    overflow-y: hidden;
+}
+.koran_container_read{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    background-color: #dfd263;
+    z-index: 10000;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    overflow: auto;
+    display: none;
+}
+.koran_container_read > i{
+    font-size: 1.5rem;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.koran .active{
+    display: flex;
+}
+.koran_text{
+    overflow: auto;
+    padding: 50px;
+    line-height: 77px;
+    font-size: 1.2rem;
+}
+.koran_text p{
+    display: inline-block;
+}
+.koran_text p span{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    background:  url('../images/aya.png');
+    background-size: 100%;
+    background-position: center;
+    background-position-y: -17px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    font-size: .9rem;
+    font-family: sans-serif;
+}
+.koran > h1{
+    display: block;
+    padding: 100px 0;
+    padding-bottom: 50px;
+    font-size: 2.5rem;
+    color: var(--main_Color);
+}
+.sattic_title{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2.5rem;
+}
+.main_koran{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 30px;
+    width: 90%;
+    margin: auto;
+    direction: rtl;
+}
+.main_koran .koran_container span{
+    background-image: url('../images/Logo2.png');
+    display: block;
+    width: 90px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90px;
+    position: relative;
+    cursor: pointer;
+}
+.main_koran .koran_container p{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    top: -30%
+}
+.sounds{
+    background-color: var(--game_Color) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 10px;
+    color: var(--main_Color);
+}
+
+/*--------Meduim-Media---------------------->*/
+@media (min-width:970px) and (max-width:1239px){
+    .main_koran .koran_container span{
+        width: 70px;
+        height: 70px;
+    }
+    .main_koran{
+        justify-content: center;
+    }
+    .main_koran{
+        width: 95%;
+    }
+    .main_koran .koran_container p{
+        top: -45%;
+    }
+}
+/*--------Meduim-Media-2---------------------->*/
+@media (min-width:668px) and (max-width:970px){
+    .main_koran .koran_container span{
+        width: 55px;
+        height: 55px;
+    }
+    .main_koran{
+        grid-gap: 10px;
+    }
+    .koran h1{
+        font-size: 2rem;
+    }
+    .main_koran{
+        justify-content: center;
+    }
+    .main_koran{
+        width: 100%;
+    }
+    .main_koran .koran_container p{
+        top: -65%;
+        font-size: .8rem;
+    }
+}
+/*--------Small-Media---------------------->*/
+@media (min-width:200px) and (max-width:667px){
+    .koran h1{
+        font-size: 2rem;
+    }
+    .main_koran{
+        grid-gap: 50px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .main_koran .koran_container span{
+        width: 120px;
+        height: 120px;
+    }
+}
